@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+db.sqlite3
+
+# Large model/data files live on Google Drive
+*.h5
+*.model
+*.mco
+*.jar
+web-demo/big.txt
+web-demo/id_to_verb.json
+web-demo/verb_to_id.json
+web-demo/NLP_final_project/resources/
+next-word-prediction/raw_data_for_next_word.csv
+
+.DS_Store
+Thumbs.db
